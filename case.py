@@ -17,8 +17,6 @@ print(annual_income)
 
 def couple():
     if annual_income <= 18150:
-        taxes = 0.1
-        s = 1
         gr1 = annual_income * 0.1
         gr2 = 0
         gr3 = 0
@@ -27,8 +25,6 @@ def couple():
         gr6 = 0
         gr7 = 0
     elif 18151 <= annual_income <= 73800:
-        taxes = 0.15
-        s = 2
         gr1 = 18150 * 0.1
         gr2 = (annual_income - 18150) * 0.15
         gr3 = 0
@@ -37,8 +33,6 @@ def couple():
         gr6 = 0
         gr7 = 0
     elif 73801 <= annual_income <= 148850:
-        taxes = 0.25
-        s = 3
         gr1 = 18150 * 0.1
         gr2 = (73800 - 18150) * 0.15
         gr3 = (annual_income - 73800) * 0.25
@@ -47,8 +41,6 @@ def couple():
         gr6 = 0
         gr7 = 0
     elif 148851 <= annual_income <= 226850:
-        taxes = 0.28
-        s = 4
         gr1 = 18150 * 0.1
         gr2 = (73800 - 18150) * 0.15
         gr3 = (148850 - 73800) * 0.25
@@ -57,8 +49,6 @@ def couple():
         gr6 = 0
         gr7 = 0
     elif 226851 <= annual_income <= 405100:
-        taxes = 0.33
-        s = 5
         gr1 = 18150 * 0.1
         gr2 = (73800 - 18150) * 0.15
         gr3 = (148850 - 73801) * 0.25
@@ -67,8 +57,6 @@ def couple():
         gr6 = 0
         gr7 = 0
     elif 405101 <= annual_income <= 457600:
-        taxes = 0.35
-        s = 6
         gr1 = 18150 * 0.1
         gr2 = (73800 - 18150) * 0.15
         gr3 = (148850 - 73800) * 0.25
@@ -77,8 +65,6 @@ def couple():
         gr6 = (annual_income - 405100) * 0.35
         gr7 = 0
     elif 457601 <= annual_income:
-        taxes = 0.396
-        s = 7
         gr1 = 18150 * 0.1
         gr2 = (73800 - 18150) * 0.15
         gr3 = (148850 - 73800) * 0.25
