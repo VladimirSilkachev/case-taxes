@@ -3,7 +3,7 @@ Case-study #2
 Developers:
 Silkachev (40%), Popov N (30%), Vinnikov R(50%)
 """
-import local as lc
+import Local as lc
 
 name_month = [lc.JAN, lc.FAB, lc.MAR, lc.APR, lc.MAY, lc.JUN, lc.JUL, lc.AUG, lc.SEP, lc.OCT, lc.NOV, lc.DEC]
 
@@ -136,9 +136,7 @@ def single():
         gr5 = (405100 - 206600) * 0.33
         gr6 = (432200 - 405100) * 0.35
         gr7 = (annual_income - 432200) * 0.396
-    for i in range(7, 1, -1):
-        if s == i:
-            t = (gr1 + gr2 + gr3 + gr4 + gr5 + gr6 + gr7)
+    print(gr1 + gr2 + gr3 + gr4 + gr5 + gr6 + gr7)
     pass
 
 
