@@ -9,7 +9,7 @@ name_month = [lc.JAN, lc.FAB, lc.MAR, lc.APR, lc.MAY, lc.JUN, lc.JUL, lc.AUG, lc
 
 annual_income = 0
 for month in range(12):
-    print('{} {}:'.format(lc.QUESTION, name_month[month], end=''))
+    print('{} {}:'.format(lc.QUESTION, name_month[month]), end=' ')
     income = float(input())
     annual_income += income
 print(annual_income)
